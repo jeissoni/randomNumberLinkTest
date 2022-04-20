@@ -1,7 +1,7 @@
 {
-  "name": "RandomNumberLinkV1",
+  "name": "randomnumberlinkv1",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,20 @@
     "hardhat": "^2.9.3",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeissoni/randomNumberLinkTest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeissoni/randomNumberLinkTest/issues"
+  },
+  "homepage": "https://github.com/jeissoni/randomNumberLinkTest#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.0",
+    "dotenv": "^16.0.0"
   }
 }
